@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://ix1qwt7ai3s1"]
+
+[ext_resource type="PackedScene" uid="uid://b0sf8m2uiubfb" path="res://items/ice_cream.tscn" id="1_dca7w"]
+
+[node name="GameScene" type="Node2D"]
+
+[node name="IceCream" parent="." instance=ExtResource("1_dca7w")]
+position = Vector2(-103, 6)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+limit_left = -600
+limit_top = -400
+limit_right = 600
+limit_bottom = 400
